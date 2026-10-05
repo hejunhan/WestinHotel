@@ -1,0 +1,331 @@
+{
+  "models": {
+    "H55_EntryWardrobe": {
+      "description": "三门衣帽柜：内凹踢脚、实木门板、金属拉手",
+      "parts": [
+        "H55_EntryWardrobe_Metal",
+        "H55_EntryWardrobe_Wood"
+      ]
+    },
+    "H55_LuggageBench": {
+      "description": "玄关换鞋及行李凳",
+      "parts": [
+        "H55_LuggageBench_Metal",
+        "H55_LuggageBench_Wood",
+        "H55_LuggageBench_Fabric"
+      ]
+    },
+    "H55_EntryScreen": {
+      "description": "2.3m竖向木格屏风，遮床但透视",
+      "parts": [
+        "H55_EntryScreen_Wood"
+      ]
+    },
+    "H55_TeaCabinet": {
+      "description": "茶水台及通风小冰箱柜",
+      "parts": [
+        "H55_TeaCabinet_Metal",
+        "H55_TeaCabinet_Wood",
+        "H55_TeaCabinet_Stone"
+      ]
+    },
+    "H55_Sofa": {
+      "description": "三座木框沙发，分块圆角软包",
+      "parts": [
+        "H55_Sofa_Metal",
+        "H55_Sofa_Wood",
+        "H55_Sofa_Fabric"
+      ]
+    },
+    "H55_CoffeeTable": {
+      "description": "低茶几及下层置物板",
+      "parts": [
+        "H55_CoffeeTable_Metal",
+        "H55_CoffeeTable_Wood"
+      ]
+    },
+    "H55_Armchair": {
+      "description": "同系列木扶手单椅",
+      "parts": [
+        "H55_Armchair_Metal",
+        "H55_Armchair_Wood",
+        "H55_Armchair_Fabric"
+      ]
+    },
+    "H55_Bookcase": {
+      "description": "开放书架：格架、书籍，墙侧排列",
+      "parts": [
+        "H55_Bookcase_Metal",
+        "H55_Bookcase_Wood",
+        "H55_Bookcase_Default"
+      ]
+    },
+    "H55_DeskChair": {
+      "description": "书桌配套木背椅",
+      "parts": [
+        "H55_DeskChair_Metal",
+        "H55_DeskChair_Fabric",
+        "H55_DeskChair_Wood"
+      ]
+    },
+    "H55_SleepScreen": {
+      "description": "1.35m低格栅屏风，保留第三人称视野",
+      "parts": [
+        "H55_SleepScreen_Wood"
+      ]
+    },
+    "H55_DoubleBed": {
+      "description": "双人床、床架、软包床垫及枕头",
+      "parts": [
+        "H55_DoubleBed_Metal",
+        "H55_DoubleBed_Wood",
+        "H55_DoubleBed_Fabric"
+      ]
+    },
+    "H55_Bedside": {
+      "description": "床头矮柜",
+      "parts": [
+        "H55_Bedside_Metal",
+        "H55_Bedside_Wood"
+      ]
+    },
+    "H55_Vanity": {
+      "description": "梳妆台，不新增镜面材质",
+      "parts": [
+        "H55_Vanity_Metal",
+        "H55_Vanity_Wood"
+      ]
+    },
+    "H55_DressingBench": {
+      "description": "更衣区长凳",
+      "parts": [
+        "H55_DressingBench_Metal",
+        "H55_DressingBench_Wood",
+        "H55_DressingBench_Fabric"
+      ]
+    },
+    "H55_LinenCabinet": {
+      "description": "布草收纳矮柜",
+      "parts": [
+        "H55_LinenCabinet_Metal",
+        "H55_LinenCabinet_Wood"
+      ]
+    }
+  },
+  "placements": [
+    {
+      "id": "01",
+      "name": "入户衣帽柜",
+      "x": 1.1,
+      "y": 0.3,
+      "w": 2.3,
+      "d": 0.6,
+      "h": 2.4,
+      "kind": "cab",
+      "model": "H55_EntryWardrobe",
+      "yaw": 0
+    },
+    {
+      "id": "02",
+      "name": "换鞋／行李凳",
+      "x": 4.1,
+      "y": 1.3,
+      "w": 1.4,
+      "d": 0.6,
+      "h": 0.45,
+      "kind": "bench",
+      "model": "H55_LuggageBench",
+      "yaw": 0
+    },
+    {
+      "id": "03",
+      "name": "玄关透光屏风",
+      "x": 5.75,
+      "y": 0.3,
+      "w": 0.16,
+      "d": 2.05,
+      "h": 2.3,
+      "kind": "screen",
+      "model": "H55_EntryScreen",
+      "yaw": 0
+    },
+    {
+      "id": "04",
+      "name": "茶水／小冰箱",
+      "x": 10.6,
+      "y": 0.3,
+      "w": 0.6,
+      "d": 1.7,
+      "h": 0.9,
+      "kind": "cab",
+      "model": "H55_TeaCabinet",
+      "yaw": -90
+    },
+    {
+      "id": "05",
+      "name": "三人沙发",
+      "x": 4.2,
+      "y": 3.1,
+      "w": 2.8,
+      "d": 0.9,
+      "h": 0.82,
+      "kind": "sofa",
+      "model": "H55_Sofa",
+      "yaw": 180
+    },
+    {
+      "id": "06",
+      "name": "低茶几",
+      "x": 5,
+      "y": 4.5,
+      "w": 1.4,
+      "d": 0.75,
+      "h": 0.42,
+      "kind": "table",
+      "model": "H55_CoffeeTable",
+      "yaw": 0
+    },
+    {
+      "id": "07",
+      "name": "扶手椅A",
+      "x": 4.25,
+      "y": 6,
+      "w": 0.8,
+      "d": 0.85,
+      "h": 0.85,
+      "kind": "chair",
+      "model": "H55_Armchair",
+      "yaw": 0
+    },
+    {
+      "id": "08",
+      "name": "扶手椅B",
+      "x": 6.3,
+      "y": 6,
+      "w": 0.8,
+      "d": 0.85,
+      "h": 0.85,
+      "kind": "chair",
+      "model": "H55_Armchair",
+      "yaw": 0
+    },
+    {
+      "id": "09",
+      "name": "书架／展示柜",
+      "x": 10.82,
+      "y": 3.1,
+      "w": 0.4,
+      "d": 2.2,
+      "h": 1.8,
+      "kind": "cab",
+      "model": "H55_Bookcase",
+      "yaw": -90
+    },
+    {
+      "id": "11",
+      "name": "书桌椅",
+      "x": 9.67,
+      "y": 7.25,
+      "w": 0.65,
+      "d": 0.65,
+      "h": 1.03,
+      "kind": "chair",
+      "model": "H55_DeskChair",
+      "yaw": 90
+    },
+    {
+      "id": "12",
+      "name": "寝区低屏风",
+      "x": 4.1,
+      "y": 10.05,
+      "w": 3,
+      "d": 0.18,
+      "h": 1.35,
+      "kind": "screen",
+      "model": "H55_SleepScreen",
+      "yaw": 0
+    },
+    {
+      "id": "13",
+      "name": "双人床",
+      "x": 4.9,
+      "y": 10.75,
+      "w": 2.1,
+      "d": 2,
+      "h": 0.52,
+      "kind": "bed",
+      "model": "H55_DoubleBed",
+      "yaw": 0
+    },
+    {
+      "id": "14",
+      "name": "床头柜A",
+      "x": 4.25,
+      "y": 12.15,
+      "w": 0.5,
+      "d": 0.6,
+      "h": 0.55,
+      "kind": "table",
+      "model": "H55_Bedside",
+      "yaw": 0
+    },
+    {
+      "id": "15",
+      "name": "床头柜B",
+      "x": 7.15,
+      "y": 12.15,
+      "w": 0.5,
+      "d": 0.6,
+      "h": 0.55,
+      "kind": "table",
+      "model": "H55_Bedside",
+      "yaw": 0
+    },
+    {
+      "id": "16",
+      "name": "梳妆台",
+      "x": 9.4,
+      "y": 10,
+      "w": 1.65,
+      "d": 0.5,
+      "h": 0.78,
+      "kind": "desk",
+      "model": "H55_Vanity",
+      "yaw": 0
+    },
+    {
+      "id": "17",
+      "name": "更衣长凳",
+      "x": 1.5,
+      "y": 11.8,
+      "w": 1.65,
+      "d": 0.6,
+      "h": 0.45,
+      "kind": "bench",
+      "model": "H55_DressingBench",
+      "yaw": 0
+    },
+    {
+      "id": "18",
+      "name": "布草矮柜",
+      "x": 1.2,
+      "y": 13,
+      "w": 2.3,
+      "d": 0.5,
+      "h": 0.9,
+      "kind": "cab",
+      "model": "H55_LinenCabinet",
+      "yaw": 0
+    }
+  ],
+  "origin_ue_cm": [
+    19022.306,
+    692.402,
+    7083.445
+  ],
+  "retain_original": [
+    "task desk and task book",
+    "bathroom enclosure and fixtures",
+    "movable wardrobe and hidden doorway"
+  ]
+}

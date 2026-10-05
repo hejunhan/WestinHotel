@@ -1,0 +1,392 @@
+[
+  {
+    "path": "DesignWork/V55_HotelDetail/Source/V55_307_Layout_Preview.blend",
+    "bytes": 256967,
+    "sha256": "3c2e2317757f9ad8e56c229b1c3cf1ff3bf71839c25e808d02785d32f353ade0"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Source/V55_Hotel_Furniture.blend",
+    "bytes": 508811,
+    "sha256": "8b718bbe6dc8d193925f558a43b793d1c7f4231a89f67a00097f7cbc018e9a95"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Source/V55_Hotel_Furniture_Repaired.mb",
+    "bytes": 2190760,
+    "sha256": "c3405a08ea8d14f6924358e4e16b7a725988fcc8420690fe2566538b2ad406ca"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Source/V55_HotelShell307_Independent.mb",
+    "bytes": 4463176,
+    "sha256": "18115716eea15ce351ac82af7ebea614fd6dd5cd6c99a2408bff9c1e9bdbab07"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Armchair_Fabric.fbx",
+    "bytes": 55216,
+    "sha256": "18d487c09fd60b5672411230b6aa0251f8561e286370b9e4754000c366b69007"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Armchair_Metal.fbx",
+    "bytes": 101792,
+    "sha256": "c31be5dee9fdbe8be50ba1557f9f03f0e00e91a94401bb6b1bfcc0501d1b955c"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Armchair_Wood.fbx",
+    "bytes": 98272,
+    "sha256": "805231e8a02efa0e137779806a0e25200c7e5285d0ec4b9400987fb9ca4bb4f2"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Bedside_Metal.fbx",
+    "bytes": 47728,
+    "sha256": "c770d66a6ef03802d7d3691ef9c499fffa8308d9856eb49f1e5894559bc77b20"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Bedside_Wood.fbx",
+    "bytes": 95632,
+    "sha256": "ec6a14cfa01f01723a7b2b797da2870b03cfe96b3e74e7d61f0b5cfc591fc465"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Bookcase_Default.fbx",
+    "bytes": 102688,
+    "sha256": "74c5e655c9923326a3c79b48fc3417e34d7e28fac61d1321488e6843822519df"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Bookcase_Metal.fbx",
+    "bytes": 45664,
+    "sha256": "0de0dc35b08fb3a93e4d1b397078552ac891f662b74c4218a4214d9fa89f8686"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Bookcase_Wood.fbx",
+    "bytes": 141488,
+    "sha256": "fb0e3f84780189c12987c359d1d3505769701f84818a7c114339a43707c35545"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_CoffeeTable_Metal.fbx",
+    "bytes": 95104,
+    "sha256": "ca119760f37269b9f6e1b08c1f9cd21286f0ff0df18aaa86f47d1a90ec964ec0"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_CoffeeTable_Wood.fbx",
+    "bytes": 55136,
+    "sha256": "d07b1141023f8b3d6c7e8cc2d25284df6ca4bbcfc6bbd7f00921b9bf11d7b6b5"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DeskChair_Fabric.fbx",
+    "bytes": 44976,
+    "sha256": "1667d24d53dd7799b6364ca85e3a43c57df9e93dbd6cd3a3dfc64367c51e65fa"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DeskChair_Metal.fbx",
+    "bytes": 100496,
+    "sha256": "d3ab0b66a99f823601baf8634e7535fef868d2b311ed2193bd8d0b16c214891d"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DeskChair_Wood.fbx",
+    "bytes": 66144,
+    "sha256": "6a94ca66d809433e27f4975de241ca6bece0508bb7665c1e3d368933eb424707"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DoubleBed_Fabric.fbx",
+    "bytes": 80912,
+    "sha256": "a7e404201737de49d5b619b3265cdd6e3fa695d61b197f01f66d55325b1983c1"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DoubleBed_Metal.fbx",
+    "bytes": 45376,
+    "sha256": "6df90c7b0f2d2eab8ba349d15b0ddee538a7ffe63490232e7a6c5a3c9d913fa4"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DoubleBed_Wood.fbx",
+    "bytes": 54832,
+    "sha256": "b86f228a6dc6649eaf6bf25a2ebd9e6ffd10060b12cd58302248ff5787c2edd9"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DressingBench_Fabric.fbx",
+    "bytes": 45456,
+    "sha256": "82403fb48acca2e2f1b7bffc777bed1bc5eae20d7c3c05dc6d6211e5f21067e3"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DressingBench_Metal.fbx",
+    "bytes": 99744,
+    "sha256": "a0b0a40f5563e21b3c0ee2f7f25dbdcb717f745c1f836ccb837ef10d7fc74b5b"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_DressingBench_Wood.fbx",
+    "bytes": 45376,
+    "sha256": "5b98cd26bc89452aaea897468e3ff34b4e6a868c352e73ed501af2da045ce42f"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_EntryScreen_Wood.fbx",
+    "bytes": 215552,
+    "sha256": "eae47133095406109c54acbab26280bc37f4edcda63301375020345587978e80"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_EntryWardrobe_Metal.fbx",
+    "bytes": 50992,
+    "sha256": "f3e479a9c4f14f3d14e2f5331f8978e1e94364c02e4af929cf7b99c50487d5a1"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_EntryWardrobe_Wood.fbx",
+    "bytes": 124528,
+    "sha256": "8d7ff65a4e70dc933a6d2529b3dcdd4e65a5c8dc39de81a5d818f88dd966a97c"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_LinenCabinet_Metal.fbx",
+    "bytes": 50384,
+    "sha256": "501c430055b780a58fc7c815635d20d4e7f194a0f5e62c2bf87c9a9fc7277e0b"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_LinenCabinet_Wood.fbx",
+    "bytes": 122672,
+    "sha256": "1dbbba1c5a0e29d7e8a2c1724c8bd6a121075fe5271ef611cde7098f69d5e3cc"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_LuggageBench_Fabric.fbx",
+    "bytes": 45232,
+    "sha256": "9ac4de632cc341bdfb8c5361de5eb309812fc0052270276ab64d08fbfa2fb44b"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_LuggageBench_Metal.fbx",
+    "bytes": 100416,
+    "sha256": "d4cddeb787ba666b63b912cba0bff98282e8e732089577e387be193b38946153"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_LuggageBench_Wood.fbx",
+    "bytes": 45376,
+    "sha256": "50fa3166cbe9fe4e790732b7f0489e0f99b2bc18dda0b032c685fb47aa15407f"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_SleepScreen_Wood.fbx",
+    "bytes": 253520,
+    "sha256": "c325fb83ff3fcc71896e22143ec386bea5888e2e8c3d6fb5d52ed363be8dff3c"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Sofa_Fabric.fbx",
+    "bytes": 97728,
+    "sha256": "b6bbc115ea8be4aa530e7cd66b20ce6f1edbf25c5e57cf5cc1ec3f46f4e3aedf"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Sofa_Metal.fbx",
+    "bytes": 99328,
+    "sha256": "a9e09a27073ca877279bf49e3d7cddac45ad4afadf38936c52b59ea8f161bc49"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Sofa_Wood.fbx",
+    "bytes": 100736,
+    "sha256": "13231890ae83ee3c084b648a7c333859e3a926ea4dd370f9a003b55ff1543de6"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_TeaCabinet_Metal.fbx",
+    "bytes": 144640,
+    "sha256": "769b58507686c215c98e1c0e2c6ca7d840c7f8e764cbfeb6aba42d0b958674a3"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_TeaCabinet_Stone.fbx",
+    "bytes": 45584,
+    "sha256": "7fbd75727f3dd26b4816baf1154992ba7cf35175a56f15b03a43d68f533f2b25"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_TeaCabinet_Wood.fbx",
+    "bytes": 116128,
+    "sha256": "7f4de8a1ed883a8611f88bd5823eadae3cdb815ab3f0beeee1b717de9c7a1a71"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Vanity_Metal.fbx",
+    "bytes": 102928,
+    "sha256": "acc2d0bb370bfea36c08308779e270783ba31cb47f00e94d36ea0c30a5f0ae01"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/H55_Vanity_Wood.fbx",
+    "bytes": 55776,
+    "sha256": "2ca9c352025a547c07bc735aa7bbc1ff1c1f424fe70504d0167a04da9619880b"
+  },
+  {
+    "path": "DesignWork/V55_HotelDetail/Exports/SM_H55_HotelShell307.fbx",
+    "bytes": 1495040,
+    "sha256": "53c01e098292fe95ece64bcd590c6cf2f8775b1c01d2e76cb5431bc787c71e01"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Armchair_Fabric.uasset",
+    "bytes": 37321,
+    "sha256": "379f0db341ca031c1a68b0245e34d8dd6ca938ab2e848e983ddbf2c6e6b4c9f8"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Armchair_Metal.uasset",
+    "bytes": 71441,
+    "sha256": "4033da7e0e5eba263a58625cc737a82cfedbf205c819a8e062cd4226f260fe5d"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Armchair_Wood.uasset",
+    "bytes": 70063,
+    "sha256": "e02a698efee8c503b4bba3aed08fbf953422e284884f7fe793979ea97a0f7543"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Bedside_Metal.uasset",
+    "bytes": 29127,
+    "sha256": "31bb3898a17bcfded23bf01643133b439e4b7bbe1567724e7dce42f4d3bea340"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Bedside_Wood.uasset",
+    "bytes": 68780,
+    "sha256": "5453c028d91dab9ad6c16b3b2a94cad766b130c82844eb085bc3737a5d60146e"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Bookcase_Default.uasset",
+    "bytes": 73271,
+    "sha256": "973d8af70195f06e319c7475cb2d173eef8ee2cc03f849c63208363f4f484a0d"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Bookcase_Metal.uasset",
+    "bytes": 27428,
+    "sha256": "c1b86e04cad5ec478ba9c94ede3e8bad0708db83c859afeaf0ec94114800ff02"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Bookcase_Wood.uasset",
+    "bytes": 101784,
+    "sha256": "cd04aaa0b32f37db459f0c4140e209db64450fe49accba74368b3767388c3e98"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_CoffeeTable_Metal.uasset",
+    "bytes": 69002,
+    "sha256": "5486111d922305cfa557d8712fda088914da19fd6f7a010bdcaeee2354666f16"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_CoffeeTable_Wood.uasset",
+    "bytes": 36264,
+    "sha256": "8ebc89149e9d8bf8c457711942c8b1311620e4d4e7a20b02844149367e531de9"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DeskChair_Fabric.uasset",
+    "bytes": 26618,
+    "sha256": "0cd1f678f74569a8e7ecfaa2bd1f4f73ff734dd9d452d587d1baab7b5224942e"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DeskChair_Metal.uasset",
+    "bytes": 69494,
+    "sha256": "3fb1a5f8ecfb10894c52137128add545cc513f348e7f7d89e26f537966630654"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DeskChair_Wood.uasset",
+    "bytes": 45966,
+    "sha256": "8f05380b7bb3da1e4a26397147a3fe6458fc290db423a49bab2dc7bd805f41f0"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DoubleBed_Fabric.uasset",
+    "bytes": 56525,
+    "sha256": "509cbee0720db9ea1d91f5f7c1c1471c1ff62ca6ffa7417c8994785758c50e8c"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DoubleBed_Metal.uasset",
+    "bytes": 27777,
+    "sha256": "56d5a669f4bfca4c8c2dbc55f557034f97e470863499b50b3ff9e9b179b25436"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DoubleBed_Wood.uasset",
+    "bytes": 37009,
+    "sha256": "4af86f2166813b8865ae02ee4442174300a97c243195fd52c3218d7d1d98af50"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DressingBench_Fabric.uasset",
+    "bytes": 27342,
+    "sha256": "7f721619da75d2f09955b05247f5a466170bb61cd09ec250c518a27cf8128d51"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DressingBench_Metal.uasset",
+    "bytes": 69771,
+    "sha256": "742caedb074a236a39184977bdf309ab1e7e76f207bd8030c47ac0d8422624a3"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_DressingBench_Wood.uasset",
+    "bytes": 27110,
+    "sha256": "97721a797ca094af681c8f114d9d3e8a2b12bbc713e6b9dedaa99de67b71cd8a"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_EntryScreen_Wood.uasset",
+    "bytes": 158582,
+    "sha256": "5a12950cd53beb82114f7360439c2fc47349bb102c74ef125f5cfdb26109c4f7"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_EntryWardrobe_Metal.uasset",
+    "bytes": 34593,
+    "sha256": "5ade61b82d77faca4b2b82d9ad3a654a2bfaf6a023efc82f965fc10af996c05e"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_EntryWardrobe_Wood.uasset",
+    "bytes": 94741,
+    "sha256": "42f0e79d39bece3d0b98d0cf56ad6353e7388c9a238f1cddd710629e6ff98195"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_LinenCabinet_Metal.uasset",
+    "bytes": 33873,
+    "sha256": "c871df1a45658fd9084718baecac2d0f3bb3a370353b24660b5a6e9f95821907"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_LinenCabinet_Wood.uasset",
+    "bytes": 93425,
+    "sha256": "a86a87b460a9dc18523661ace0aa272ed8fb317800a7f84ac445af7d3e5f0ba8"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_LuggageBench_Fabric.uasset",
+    "bytes": 27161,
+    "sha256": "f93088420f3345ff5dcee78627d7fb5957e525938478381afb359eb47ae7213d"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_LuggageBench_Metal.uasset",
+    "bytes": 70112,
+    "sha256": "30baa072e146506a4dc3fb3ae1bfd8d14fefc3b1456e4ff8d9d1c0cafef29204"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_LuggageBench_Wood.uasset",
+    "bytes": 26982,
+    "sha256": "d3627b395332ba5a3b9eedf0a7ca183a4ade7c57a0555df16f6cafabd9cce5e3"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_SleepScreen_Wood.uasset",
+    "bytes": 190219,
+    "sha256": "55c7752e6bbfd4d21f1ebcafd17cc6b0a14d08920df6e075129867cc23742697"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Sofa_Fabric.uasset",
+    "bytes": 70303,
+    "sha256": "b51c48d1c827f0cdbd34480032e232efbd810aa5eef7f5084e23a1362ea66aaf"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Sofa_Metal.uasset",
+    "bytes": 72264,
+    "sha256": "a37d6f48740ce747e4a156ec2e94756962a4991fabeae487008c1649293f2917"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Sofa_Wood.uasset",
+    "bytes": 71919,
+    "sha256": "0f54a6bd22825f2a9da71dbc0932fcb069702c1eb677e9377337e8b784c62672"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_TeaCabinet_Metal.uasset",
+    "bytes": 101633,
+    "sha256": "c07d16ca216430d8274b927e78a2e03b40749c829229bb56ac4b0c43506511ef"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_TeaCabinet_Stone.uasset",
+    "bytes": 27383,
+    "sha256": "c3859d3c8311eba16d12e9205abc08773db0aecf410d6fd9e968bf463d1134a3"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_TeaCabinet_Wood.uasset",
+    "bytes": 90393,
+    "sha256": "99bcf5d01221aba03e566080dca6e52b5a52be4696d378c3ef8dc64897fa8d06"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Vanity_Metal.uasset",
+    "bytes": 70486,
+    "sha256": "8364dfb9747292b6dd77232a0e1a08ca908bad2d4d555853c1da52e72cf9dc18"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/H55_Vanity_Wood.uasset",
+    "bytes": 37195,
+    "sha256": "090336cb9b2d25b3483e4e439aa80670cd28000fa928dc8831093f225c144862"
+  },
+  {
+    "path": "Content/DSH_HotelDetail/V55_Furniture/SM_H55_HotelShell307.uasset",
+    "bytes": 920089,
+    "sha256": "5273ae9b47c7cacea62a4241b307486ef40a4add99f1a1c983801f3893ad5ab3"
+  }
+]

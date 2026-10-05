@@ -1,0 +1,362 @@
+[
+  {
+    "mesh": "H55_EntryWardrobe_Metal",
+    "vertices": 192,
+    "faces": 152,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_EntryWardrobe_Wood",
+    "vertices": 768,
+    "faces": 784,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_LuggageBench_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_LuggageBench_Wood",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_LuggageBench_Fabric",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_EntryScreen_Wood",
+    "vertices": 1536,
+    "faces": 1568,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_TeaCabinet_Metal",
+    "vertices": 864,
+    "faces": 838,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_TeaCabinet_Wood",
+    "vertices": 768,
+    "faces": 784,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_TeaCabinet_Stone",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Stone"
+  },
+  {
+    "mesh": "H55_Sofa_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_Sofa_Wood",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_Sofa_Fabric",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_CoffeeTable_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_CoffeeTable_Wood",
+    "vertices": 192,
+    "faces": 196,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_Armchair_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_Armchair_Wood",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_Armchair_Fabric",
+    "vertices": 192,
+    "faces": 196,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_Bookcase_Metal",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_Bookcase_Wood",
+    "vertices": 960,
+    "faces": 980,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_Bookcase_Default",
+    "vertices": 672,
+    "faces": 686,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Default"
+  },
+  {
+    "mesh": "H55_DeskChair_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_DeskChair_Fabric",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_DeskChair_Wood",
+    "vertices": 288,
+    "faces": 294,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_SleepScreen_Wood",
+    "vertices": 2016,
+    "faces": 2058,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_DoubleBed_Metal",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_DoubleBed_Wood",
+    "vertices": 192,
+    "faces": 196,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_DoubleBed_Fabric",
+    "vertices": 384,
+    "faces": 392,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_Bedside_Metal",
+    "vertices": 128,
+    "faces": 116,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_Bedside_Wood",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_Vanity_Metal",
+    "vertices": 608,
+    "faces": 606,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_Vanity_Wood",
+    "vertices": 192,
+    "faces": 196,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_DressingBench_Metal",
+    "vertices": 576,
+    "faces": 588,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_DressingBench_Wood",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  },
+  {
+    "mesh": "H55_DressingBench_Fabric",
+    "vertices": 96,
+    "faces": 98,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Fabric"
+  },
+  {
+    "mesh": "H55_LinenCabinet_Metal",
+    "vertices": 192,
+    "faces": 152,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Metal"
+  },
+  {
+    "mesh": "H55_LinenCabinet_Wood",
+    "vertices": 768,
+    "faces": 784,
+    "welded_vertices": 0,
+    "boundary_edges": 0,
+    "non_manifold_edges": 0,
+    "zero_area_faces": 0,
+    "material_role": "Wood"
+  }
+]

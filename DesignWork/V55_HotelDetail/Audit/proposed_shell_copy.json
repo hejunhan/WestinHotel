@@ -1,0 +1,24 @@
+{
+  "remove_component_ids": [
+    128,
+    139,
+    333,
+    339,
+    367,
+    438,
+    1016,
+    1033,
+    1035,
+    1042,
+    1045,
+    1054,
+    1057,
+    1059,
+    1060,
+    1061
+  ],
+  "removed_faces": 240,
+  "removed_components": 16,
+  "original_mesh_unchanged": true,
+  "reason": "Only replace obsolete 307 bed, sofa, coffee table, chair, bedside and shoe bench; preserve structure, book, desk, wardrobe and bathroom."
+}
