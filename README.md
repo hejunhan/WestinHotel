@@ -1,5 +1,7 @@
 # WestinHotel
 
+English | [简体中文](README.zh-CN.md)
+
 WestinHotel is a collaborative Unreal Engine project. This repository contains
 the current standalone project component supplied as `DSH_Standalone`; it is a
 starting point for the team's ongoing work, rather than the complete scope of
