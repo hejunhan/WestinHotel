@@ -1,0 +1,15 @@
+{
+  "missing_blueprint": {
+    "exit_code": 1,
+    "output": "正在核对交付文件是否完整（会读取全部文件，不修改文件）...\nContent/DSH_交互/V42_翻板按钮交互/Runtime/Blueprints/BP_FlipPanelControl.uasset [缺失]\n交付文件缺失或已被修改。请重新完整解压原包到一个新目录；不会覆盖现有工作。\n"
+  },
+  "old_engine": {
+    "exit_code": 1,
+    "output": "正在核对交付文件是否完整（会读取全部文件，不修改文件）...\n文件校验通过：703 项。\n当前引擎为 5.7.0。本包验收版本为UE 5.8.2，请使用相同版本，避免蓝图/组件无法识别。\n"
+  },
+  "valid_package_and_engine": {
+    "exit_code": 0,
+    "output": "正在核对交付文件是否完整（会读取全部文件，不修改文件）...\n文件校验通过：703 项。\n工程文件和引擎依赖检查通过。\n"
+  },
+  "complete": true
+}

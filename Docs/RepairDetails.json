@@ -1,0 +1,37 @@
+{
+  "changes": [
+    {
+      "package": "/Game/Elevator/Blueprints/Elevator1/BP_DoorFrame",
+      "cleared_missing_audio": [],
+      "removed_unconnected_events": [],
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "package": "/Game/Elevator/Blueprints/Elevator1/BP_Elevator_Box",
+      "cleared_missing_audio": [],
+      "removed_unconnected_events": [],
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "package": "/Game/Elevator/Blueprints/Elevator2/BP_DoorFrame2",
+      "cleared_missing_audio": [],
+      "removed_unconnected_events": [],
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "package": "/Game/Elevator/Blueprints/Elevator2/BP_Elevator_Box2",
+      "cleared_missing_audio": [],
+      "removed_unconnected_events": [
+        "On Clicked (openHatchTrigger)"
+      ],
+      "status": "<BlueprintStatus.BS_UP_TO_DATE: 3>"
+    },
+    {
+      "package": "/Game/Elevator/Blueprints/FirstPersonBP/Blueprints/FirstPersonCharacter",
+      "cleared_missing_audio": [],
+      "removed_unconnected_events": [],
+      "status": "<BlueprintStatus.BS_UP_TO_DATE_WITH_WARNINGS: 5>"
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,29 @@
+<!doctype html><meta charset="utf-8"><title>V49 独立工程交付</title><style>body{font:17px/1.8 "Microsoft YaHei",sans-serif;background:#eeeae1;color:#253a39}main{max-width:960px;margin:35px auto;padding:40px;background:#fffdf7}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit}a{color:#245d68}</style><main><h1>V49 独立工程完整性修复</h1><p>已完成隔离解压与Play验证</p><p><a href="Docs/Validation.json">完整性检查</a> · <a href="Docs/EngineRequirements.json">引擎依赖清单</a></p><pre>V49 独立主关卡工程｜UE 5.8.2
+
+交给组员：只发送 V49_DSH_Standalone_UE5.8.2.zip。不要叠加覆盖V46/V48，不要只发送uproject。
+接收方：先“全部解压”到较短的本地目录，例如 D:\UEWork\DSH49；进入DSH_Standalone，双击Check-And-Launch.cmd。
+检查器将核对全部交付文件的SHA256、UE版本、引擎内置插件/模块/资源，再打开工程。未找到引擎时输入对方电脑的UE安装目录。
+第一次打开需等待着色器及资源编译。默认主地图为Main_World2_MonitorArchitectural，完成后按Play。
+熟悉UE的组员也可直接用UE 5.8.2打开DSH_Standalone.uproject。
+检查器只读取文件与安装位置；不安装软件、不下载、不修改注册表、不更改系统策略。CMD中的执行策略参数只针对该次PowerShell进程。
+检查器用于首次交接验收：开始编辑后文件哈希自然变化，此时直接打开uproject，不要让检查器覆盖组员的修改。
+
+本次修复
+1. 补齐显式引擎插件声明，包括XRBase、ControlRigSpline、Interchange及植物相关模块；关闭默认自动启用引擎插件，避免依靠本机默认环境掩盖缺失。
+2. 全部692资源逐项加载；全部31蓝图显式编译；全部8地图加载；递归检查Game、Engine及插件资源依赖。
+3. 清除原工程不存在的5个电梯音效引用。对应音效仍为空，没有用假文件冒充音效。
+4. 删除旧电梯一个不连接任何逻辑且所指组件已不存在的点击事件，保留有效舱盖事件和电梯逻辑；补全旧示例角色输入名称，ResetVR保持未分配按键。
+5. 保留所有主关卡建筑、灯光、原画质模型与贴图、监控室、三屏监控、四机关及当前第三人称角色。
+
+独立范围
+Content内包含项目全部运行资源；没有额外工程/个人插件搜索目录，没有指向本机绝对路径的蓝图参数。
+仍需电脑安装UE 5.8.2及其随引擎提供的内置插件；这是可编辑UE工程，并不是自带引擎的独立EXE。
+资产中的原FBX/贴图导入路径只是编辑器“重新导入”的制作记录，不参与运行；这些原始制作文件未包含在本包。模型、材质、纹理和动画实际数据均在Content中。
+插件清单及逐文件要求在Docs/EngineRequirements.json；不依赖此电脑额外安装的第三方插件。
+
+验证范围
+全资源加载、全蓝图编译及地图加载无缺失项。交付前从压缩包重新解压至独立目录验证，再运行Editor Play检查。
+后台Play使用NullRHI：检查角色生成/占有/移动、四机关翻转与复位、共用4秒冷却、三屏参数同步、进入/离开监控室时捕捉启停。
+未验收另一台实体电脑的GPU画面或物理键盘；美术资源未修改。监控渲染仍要求电脑满足原工程图形性能条件。
+保留原V46/V48用于回退，请给组员使用此V49新包。
+</pre></main>

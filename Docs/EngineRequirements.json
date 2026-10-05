@@ -1,0 +1,2131 @@
+{
+  "engine_version": {
+    "MajorVersion": 5,
+    "MinorVersion": 8,
+    "PatchVersion": 2,
+    "Changelist": 56702186,
+    "CompatibleChangelist": 55116800,
+    "IsLicenseeVersion": 0,
+    "IsPromotedBuild": 1,
+    "BranchName": "++UE5+Release-5.8"
+  },
+  "plugins": [
+    {
+      "name": "ACLPlugin",
+      "descriptor": "Plugins/Animation/ACLPlugin/ACLPlugin.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "AssetManagerEditor",
+      "descriptor": "Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "AudioCapture",
+      "descriptor": "Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "BaseCharacterFXEditor",
+      "descriptor": "Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/BaseCharacterFXEditor.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "BaseMaterial",
+      "descriptor": "Plugins/BaseMaterial/BaseMaterial.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ChaosCaching",
+      "descriptor": "Plugins/Experimental/ChaosCaching/ChaosCaching.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ComputeFramework",
+      "descriptor": "Plugins/Runtime/ComputeFramework/ComputeFramework.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ContentBrowserAssetDataSource",
+      "descriptor": "Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/ContentBrowserAssetDataSource.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "ContentBrowserClassDataSource",
+      "descriptor": "Plugins/Editor/ContentBrowser/ContentBrowserClassDataSource/ContentBrowserClassDataSource.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "ContentBrowserFileDataSource",
+      "descriptor": "Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/ContentBrowserFileDataSource.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ControlRig",
+      "descriptor": "Plugins/Animation/ControlRig/ControlRig.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "ControlRigSpline",
+      "descriptor": "Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "DataValidation",
+      "descriptor": "Plugins/Editor/DataValidation/DataValidation.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "Dataflow",
+      "descriptor": "Plugins/Dataflow/Dataflow.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "DeformerGraph",
+      "descriptor": "Plugins/Animation/DeformerGraph/DeformerGraph.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "DynamicWind",
+      "descriptor": "Plugins/Experimental/DynamicWind/DynamicWind.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "EditorDataStorage",
+      "descriptor": "Plugins/Experimental/EditorDataStorage/EditorDataStorage.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "EditorDataStorageFeatures",
+      "descriptor": "Plugins/Experimental/EditorDataStorageFeatures/EditorDataStorageFeatures.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "EditorScriptingUtilities",
+      "descriptor": "Plugins/Editor/EditorScriptingUtilities/EditorScriptingUtilities.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "EngineAssetDefinitions",
+      "descriptor": "Plugins/Editor/EngineAssetDefinitions/EngineAssetDefinitions.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "EnhancedInput",
+      "descriptor": "Plugins/EnhancedInput/EnhancedInput.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "FullBodyIK",
+      "descriptor": "Plugins/Experimental/FullBodyIK/FullBodyIK.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "GameplayInsights",
+      "descriptor": "Plugins/Animation/GameplayInsights/GameplayInsights.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "GeometryCache",
+      "descriptor": "Plugins/Runtime/GeometryCache/GeometryCache.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "GeometryFlow",
+      "descriptor": "Plugins/Experimental/GeometryFlow/GeometryFlow.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "GeometryProcessing",
+      "descriptor": "Plugins/Runtime/GeometryProcessing/GeometryProcessing.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "GeometryScripting",
+      "descriptor": "Plugins/Runtime/GeometryScripting/GeometryScripting.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "HairStrands",
+      "descriptor": "Plugins/Runtime/HairStrands/HairStrands.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "IKRig",
+      "descriptor": "Plugins/Animation/IKRig/IKRig.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "Interchange",
+      "descriptor": "Plugins/Interchange/Runtime/Interchange.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "InterchangeAssets",
+      "descriptor": "Plugins/Interchange/Assets/InterchangeAssets.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "LevelSequenceEditor",
+      "descriptor": "Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "MeshLODToolset",
+      "descriptor": "Plugins/Editor/MeshLODToolset/MeshLODToolset.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "MeshModelingToolset",
+      "descriptor": "Plugins/Runtime/MeshModelingToolset/MeshModelingToolset.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "MeshModelingToolsetExp",
+      "descriptor": "Plugins/Experimental/MeshModelingToolsetExp/MeshModelingToolsetExp.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ModelingToolsEditorMode",
+      "descriptor": "Plugins/Editor/ModelingToolsEditorMode/ModelingToolsEditorMode.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "NamingTokens",
+      "descriptor": "Plugins/Developer/NamingTokens/NamingTokens.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "Niagara",
+      "descriptor": "Plugins/FX/Niagara/Niagara.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "PCG",
+      "descriptor": "Plugins/PCG/PCG.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "PlanarCut",
+      "descriptor": "Plugins/Experimental/PlanarCutPlugin/PlanarCut.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "PluginBrowser",
+      "descriptor": "Plugins/Editor/PluginBrowser/PluginBrowser.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "PluginUtils",
+      "descriptor": "Plugins/Developer/PluginUtils/PluginUtils.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ProceduralMeshComponent",
+      "descriptor": "Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ProceduralVegetationEditor",
+      "descriptor": "Plugins/Experimental/ProceduralVegetationEditor/ProceduralVegetationEditor.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "PropertyAccessEditor",
+      "descriptor": "Plugins/Runtime/PropertyAccess/PropertyAccessEditor.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ProxyLODPlugin",
+      "descriptor": "Plugins/Editor/ProxyLODPlugin/ProxyLODPlugin.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "PythonScriptPlugin",
+      "descriptor": "Plugins/Experimental/PythonScriptPlugin/PythonScriptPlugin.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "RigVM",
+      "descriptor": "Plugins/Runtime/RigVM/RigVM.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "Scribble",
+      "descriptor": "Plugins/Experimental/Animation/Scribble/Scribble.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "SequencerScripting",
+      "descriptor": "Plugins/MovieScene/SequencerScripting/SequencerScripting.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "SkeletalMeshModelingTools",
+      "descriptor": "Plugins/Animation/SkeletalMeshModelingTools/SkeletalMeshModelingTools.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "StylusInput",
+      "descriptor": "Plugins/Editor/StylusInput/StylusInput.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "Takes",
+      "descriptor": "Plugins/VirtualProduction/Takes/Takes.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "ToolPresets",
+      "descriptor": "Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "TweeningUtils",
+      "descriptor": "Plugins/Animation/TweeningUtils/TweeningUtils.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "VariantManager",
+      "descriptor": "Plugins/Enterprise/VariantManager/VariantManager.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "VariantManagerContent",
+      "descriptor": "Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
+      "explicit": false
+    },
+    {
+      "name": "WindowsDeviceProfileSelector",
+      "descriptor": "Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin",
+      "explicit": true
+    },
+    {
+      "name": "XRBase",
+      "descriptor": "Plugins/Runtime/XRBase/XRBase.uplugin",
+      "explicit": true
+    }
+  ],
+  "engine_files": [
+    {
+      "relative": "Binaries/Win64/UnrealEditor-AnimGraph.dll",
+      "purpose": "engine script module AnimGraph"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-AnimGraphRuntime.dll",
+      "purpose": "engine script module AnimGraphRuntime"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-AnimationCore.dll",
+      "purpose": "engine script module AnimationCore"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-AnimationModifiers.dll",
+      "purpose": "engine script module AnimationModifiers"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-CinematicCamera.dll",
+      "purpose": "engine script module CinematicCamera"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-ClothingSystemRuntimeNv.dll",
+      "purpose": "engine script module ClothingSystemRuntimeNv"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-CoreUObject.dll",
+      "purpose": "engine script module CoreUObject"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-Engine.dll",
+      "purpose": "engine script module Engine"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-HeadMountedDisplay.dll",
+      "purpose": "engine script module HeadMountedDisplay"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-InputCore.dll",
+      "purpose": "engine script module InputCore"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-InterchangeCore.dll",
+      "purpose": "engine script module InterchangeCore"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-InterchangeEngine.dll",
+      "purpose": "engine script module InterchangeEngine"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-Landscape.dll",
+      "purpose": "engine script module Landscape"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-MeshDescription.dll",
+      "purpose": "engine script module MeshDescription"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-NavigationSystem.dll",
+      "purpose": "engine script module NavigationSystem"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-PhysicsCore.dll",
+      "purpose": "engine script module PhysicsCore"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-SlateCore.dll",
+      "purpose": "engine script module SlateCore"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-StructUtilsEditor.dll",
+      "purpose": "engine script module StructUtilsEditor"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-UMG.dll",
+      "purpose": "engine script module UMG"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-UMGEditor.dll",
+      "purpose": "engine script module UMGEditor"
+    },
+    {
+      "relative": "Binaries/Win64/UnrealEditor-UnrealEd.dll",
+      "purpose": "engine script module UnrealEd"
+    },
+    {
+      "relative": "Content/Animation/DefaultAnimBoneCompressionSettings.uasset",
+      "purpose": "engine/plugin asset /Engine/Animation/DefaultAnimBoneCompressionSettings"
+    },
+    {
+      "relative": "Content/Animation/DefaultAnimCurveCompressionSettings.uasset",
+      "purpose": "engine/plugin asset /Engine/Animation/DefaultAnimCurveCompressionSettings"
+    },
+    {
+      "relative": "Content/Animation/DefaultRecorderBoneCompression.uasset",
+      "purpose": "engine/plugin asset /Engine/Animation/DefaultRecorderBoneCompression"
+    },
+    {
+      "relative": "Content/BasicShapes/BasicShapeMaterial.uasset",
+      "purpose": "engine/plugin asset /Engine/BasicShapes/BasicShapeMaterial"
+    },
+    {
+      "relative": "Content/BasicShapes/Cone.uasset",
+      "purpose": "engine/plugin asset /Engine/BasicShapes/Cone"
+    },
+    {
+      "relative": "Content/BasicShapes/Cube.uasset",
+      "purpose": "engine/plugin asset /Engine/BasicShapes/Cube"
+    },
+    {
+      "relative": "Content/BasicShapes/Plane.uasset",
+      "purpose": "engine/plugin asset /Engine/BasicShapes/Plane"
+    },
+    {
+      "relative": "Content/EditorBlueprintResources/ActorMacros.uasset",
+      "purpose": "engine/plugin asset /Engine/EditorBlueprintResources/ActorMacros"
+    },
+    {
+      "relative": "Content/EditorBlueprintResources/StandardMacros.uasset",
+      "purpose": "engine/plugin asset /Engine/EditorBlueprintResources/StandardMacros"
+    },
+    {
+      "relative": "Content/EditorResources/AudioIcons/S_AudioComponent.uasset",
+      "purpose": "engine/plugin asset /Engine/EditorResources/AudioIcons/S_AudioComponent"
+    },
+    {
+      "relative": "Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset",
+      "purpose": "engine/plugin asset /Engine/EditorResources/AudioIcons/S_AudioComponent_AutoActivate"
+    },
+    {
+      "relative": "Content/EditorResources/LightIcons/S_LightError.uasset",
+      "purpose": "engine/plugin asset /Engine/EditorResources/LightIcons/S_LightError"
+    },
+    {
+      "relative": "Content/EngineDebugMaterials/HeatmapGradient.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineDebugMaterials/HeatmapGradient"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/DroidSansFallback.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/DroidSansFallback"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/RobotoBold.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/RobotoBold"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/RobotoBoldItalic.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/RobotoBoldItalic"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/RobotoItalic.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/RobotoItalic"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/RobotoLight.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/RobotoLight"
+    },
+    {
+      "relative": "Content/EngineFonts/Faces/RobotoRegular.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Faces/RobotoRegular"
+    },
+    {
+      "relative": "Content/EngineFonts/Roboto.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/Roboto"
+    },
+    {
+      "relative": "Content/EngineFonts/RobotoDistanceField.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineFonts/RobotoDistanceField"
+    },
+    {
+      "relative": "Content/EngineMaterials/BaseFlattenLinearColor.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/BaseFlattenLinearColor"
+    },
+    {
+      "relative": "Content/EngineMaterials/DefaultMaterial.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/DefaultMaterial"
+    },
+    {
+      "relative": "Content/EngineMaterials/DefaultNormal.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/DefaultNormal"
+    },
+    {
+      "relative": "Content/EngineMaterials/DefaultPhysicalMaterial.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/DefaultPhysicalMaterial"
+    },
+    {
+      "relative": "Content/EngineMaterials/DefaultTextMaterialOpaque.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/DefaultTextMaterialOpaque"
+    },
+    {
+      "relative": "Content/EngineMaterials/DefaultTextMaterialTranslucent.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/DefaultTextMaterialTranslucent"
+    },
+    {
+      "relative": "Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/Good64x64TilingNoiseHighFreq"
+    },
+    {
+      "relative": "Content/EngineMaterials/T_Default_Material_Grid_M.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/T_Default_Material_Grid_M"
+    },
+    {
+      "relative": "Content/EngineMaterials/T_Default_Material_Grid_N.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/T_Default_Material_Grid_N"
+    },
+    {
+      "relative": "Content/EngineMaterials/WorldGridMaterial.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineMaterials/WorldGridMaterial"
+    },
+    {
+      "relative": "Content/EngineResources/DefaultTexture.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineResources/DefaultTexture"
+    },
+    {
+      "relative": "Content/EngineResources/DefaultVolumeTexture.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineResources/DefaultVolumeTexture"
+    },
+    {
+      "relative": "Content/EngineResources/DefaultVolumeTexture2D.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineResources/DefaultVolumeTexture2D"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/T_CloudMask.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/T_CloudMask"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/T_CloudPattern.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/T_CloudPattern"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/T_Profile_08.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/T_Profile_08"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/VT_Lightning.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/VT_Lightning"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/VT_PerlinWorley_Balanced.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/VT_PerlinWorley_Balanced"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud"
+    },
+    {
+      "relative": "Content/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineSky/VolumetricClouds/m_SimpleVolumetricCloud_Inst"
+    },
+    {
+      "relative": "Content/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01.uasset",
+      "purpose": "engine/plugin asset /Engine/EngineVolumetrics/Fogsheet/Materials/T_EV_BlankWhite_01"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_RGB.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast_RGB"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/Texturing/ParallaxOcclusionMapping.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/Texturing/ParallaxOcclusionMapping"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions01/Units/Km-to-Cm.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions01/Units/Km-to-Cm"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/HueShift.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/HueShift"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Math/AddComponents.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Math/AddComponents"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Math/InverseTransformMatrix.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Math/InverseTransformMatrix"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Math/TransformToZVector.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Math/TransformToZVector"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/PivotPainter2/Black_1x1_EXR_Texture.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/PivotPainter2/Black_1x1_EXR_Texture"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/SafeNormalize.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/SafeNormalize"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/AppendMany.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/AppendMany"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/DitherTemporalAA"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/DynamicBranch.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/DynamicBranch"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/MakeFloat4"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions02/Utility/VectorLength"
+    },
+    {
+      "relative": "Content/Functions/Engine_MaterialFunctions03/Math/RemapValueRange.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Engine_MaterialFunctions03/Math/RemapValueRange"
+    },
+    {
+      "relative": "Content/Functions/Substrate/Substrate-IOR-To-F0.uasset",
+      "purpose": "engine/plugin asset /Engine/Functions/Substrate/Substrate-IOR-To-F0"
+    },
+    {
+      "relative": "Plugins/Animation/ACLPlugin/ACLPlugin.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/ACLPlugin/Binaries/Win64/UnrealEditor-ACLPlugin.dll",
+      "purpose": "plugin module ACLPlugin"
+    },
+    {
+      "relative": "Plugins/Animation/ACLPlugin/Binaries/Win64/UnrealEditor-ACLPluginEditor.dll",
+      "purpose": "plugin module ACLPluginEditor"
+    },
+    {
+      "relative": "Plugins/Animation/ACLPlugin/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Binaries/Win64/UnrealEditor-ControlRig.dll",
+      "purpose": "plugin module ControlRig"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Binaries/Win64/UnrealEditor-ControlRigDeveloper.dll",
+      "purpose": "plugin module ControlRigDeveloper"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Binaries/Win64/UnrealEditor-ControlRigEditor.dll",
+      "purpose": "plugin module ControlRigEditor"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRigGizmoMaterial.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRigGizmoMaterial"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow2_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow2_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow2_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow2_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow4_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow4_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow4_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow4_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow4_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow4_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Arrow_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Arrow_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Box_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Box_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Box_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Box_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Box_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Box_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Circle_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Circle_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Circle_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Circle_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Circle_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Circle_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Diamond_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Diamond_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Diamond_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Diamond_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Diamond_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Diamond_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_HalfCircle_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_HalfCircle_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_HalfCircle_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_HalfCircle_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_HalfCircle_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_HalfCircle_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Hexagon_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Hexagon_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Hexagon_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Hexagon_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Hexagon_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Hexagon_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Octagon_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Octagon_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Octagon_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Octagon_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Octagon_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Octagon_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Pyramid_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Pyramid_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Pyramid_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Pyramid_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Pyramid_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Pyramid_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_QuarterCircle_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_QuarterCircle_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_QuarterCircle_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_QuarterCircle_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_QuarterCircle_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_QuarterCircle_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedSquare_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedSquare_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedSquare_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedSquare_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedSquare_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedSquare_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedTriangle_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedTriangle_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedTriangle_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedTriangle_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_RoundedTriangle_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_RoundedTriangle_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Sphere_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Sphere_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Sphere_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Sphere_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Sphere_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Sphere_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Square_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Square_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Square_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Square_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Square_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Square_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Star4_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Star4_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Star4_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Star4_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Star4_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Star4_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Triangle_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Triangle_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Triangle_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Triangle_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Triangle_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Triangle_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Wedge_1mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Wedge_1mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Wedge_3mm.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Wedge_3mm"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/ControlRig_Wedge_solid.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/ControlRig_Wedge_solid"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibrary.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/DefaultGizmoLibrary"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/Content/Controls/DefaultGizmoLibraryNormalized.uasset",
+      "purpose": "engine/plugin asset /ControlRig/Controls/DefaultGizmoLibraryNormalized"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRig/ControlRig.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRigSpline/Binaries/Win64/UnrealEditor-ControlRigSpline.dll",
+      "purpose": "plugin module ControlRigSpline"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRigSpline/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/ControlRigSpline/ControlRigSpline.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/Binaries/Win64/UnrealEditor-OptimusCore.dll",
+      "purpose": "plugin module OptimusCore"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/Binaries/Win64/UnrealEditor-OptimusDeveloper.dll",
+      "purpose": "plugin module OptimusDeveloper"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/Binaries/Win64/UnrealEditor-OptimusEditor.dll",
+      "purpose": "plugin module OptimusEditor"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/Binaries/Win64/UnrealEditor-OptimusSettings.dll",
+      "purpose": "plugin module OptimusSettings"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/DeformerGraph/DeformerGraph.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-GameplayInsights.dll",
+      "purpose": "plugin module GameplayInsights"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-GameplayInsightsEditor.dll",
+      "purpose": "plugin module GameplayInsightsEditor"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-RewindDebugger.dll",
+      "purpose": "plugin module RewindDebugger"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-RewindDebuggerRuntime.dll",
+      "purpose": "plugin module RewindDebuggerRuntime"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-RewindDebuggerVLog.dll",
+      "purpose": "plugin module RewindDebuggerVLog"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor-RewindDebuggerVLogRuntime.dll",
+      "purpose": "plugin module RewindDebuggerVLogRuntime"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/GameplayInsights/GameplayInsights.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor-IKRig.dll",
+      "purpose": "plugin module IKRig"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor-IKRigDeveloper.dll",
+      "purpose": "plugin module IKRigDeveloper"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor-IKRigEditor.dll",
+      "purpose": "plugin module IKRigEditor"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor-IKRigUAF.dll",
+      "purpose": "plugin module IKRigUAF"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/IKRig/IKRig.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/SkeletalMeshModelingTools/Binaries/Win64/UnrealEditor-SkeletalMeshModelingTools.dll",
+      "purpose": "plugin module SkeletalMeshModelingTools"
+    },
+    {
+      "relative": "Plugins/Animation/SkeletalMeshModelingTools/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/SkeletalMeshModelingTools/SkeletalMeshModelingTools.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Animation/TweeningUtils/Binaries/Win64/UnrealEditor-TweeningUtils.dll",
+      "purpose": "plugin module TweeningUtils"
+    },
+    {
+      "relative": "Plugins/Animation/TweeningUtils/Binaries/Win64/UnrealEditor-TweeningUtilsEditor.dll",
+      "purpose": "plugin module TweeningUtilsEditor"
+    },
+    {
+      "relative": "Plugins/Animation/TweeningUtils/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Animation/TweeningUtils/TweeningUtils.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/BaseMaterial/BaseMaterial.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Dataflow/Binaries/Win64/UnrealEditor-DataflowEditor.dll",
+      "purpose": "plugin module DataflowEditor"
+    },
+    {
+      "relative": "Plugins/Dataflow/Binaries/Win64/UnrealEditor-DataflowEnginePlugin.dll",
+      "purpose": "plugin module DataflowEnginePlugin"
+    },
+    {
+      "relative": "Plugins/Dataflow/Binaries/Win64/UnrealEditor-DataflowNodes.dll",
+      "purpose": "plugin module DataflowNodes"
+    },
+    {
+      "relative": "Plugins/Dataflow/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Dataflow/Dataflow.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/Binaries/Win64/UnrealEditor-NamingTokens.dll",
+      "purpose": "plugin module NamingTokens"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/Binaries/Win64/UnrealEditor-NamingTokensEditor.dll",
+      "purpose": "plugin module NamingTokensEditor"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/Binaries/Win64/UnrealEditor-NamingTokensUI.dll",
+      "purpose": "plugin module NamingTokensUI"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/Binaries/Win64/UnrealEditor-NamingTokensUncookedOnly.dll",
+      "purpose": "plugin module NamingTokensUncookedOnly"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Developer/NamingTokens/NamingTokens.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Developer/PluginUtils/Binaries/Win64/UnrealEditor-PluginUtils.dll",
+      "purpose": "plugin module PluginUtils"
+    },
+    {
+      "relative": "Plugins/Developer/PluginUtils/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Developer/PluginUtils/PluginUtils.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/AssetManagerEditor/AssetManagerEditor.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/AssetManagerEditor/Binaries/Win64/UnrealEditor-AssetManagerEditor.dll",
+      "purpose": "plugin module AssetManagerEditor"
+    },
+    {
+      "relative": "Plugins/Editor/AssetManagerEditor/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Binaries/Win64/UnrealEditor-ContentBrowserAssetDataSource.dll",
+      "purpose": "plugin module ContentBrowserAssetDataSource"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserAssetDataSource/ContentBrowserAssetDataSource.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserClassDataSource/Binaries/Win64/UnrealEditor-ContentBrowserClassDataSource.dll",
+      "purpose": "plugin module ContentBrowserClassDataSource"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserClassDataSource/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserClassDataSource/ContentBrowserClassDataSource.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Win64/UnrealEditor-ContentBrowserFileDataSource.dll",
+      "purpose": "plugin module ContentBrowserFileDataSource"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ContentBrowser/ContentBrowserFileDataSource/ContentBrowserFileDataSource.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/DataValidation/Binaries/Win64/UnrealEditor-DataValidation.dll",
+      "purpose": "plugin module DataValidation"
+    },
+    {
+      "relative": "Plugins/Editor/DataValidation/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/DataValidation/DataValidation.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UnrealEditor-EditorScriptingUtilities.dll",
+      "purpose": "plugin module EditorScriptingUtilities"
+    },
+    {
+      "relative": "Plugins/Editor/EditorScriptingUtilities/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/EditorScriptingUtilities/EditorScriptingUtilities.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/EngineAssetDefinitions/Binaries/Win64/UnrealEditor-EngineAssetDefinitions.dll",
+      "purpose": "plugin module EngineAssetDefinitions"
+    },
+    {
+      "relative": "Plugins/Editor/EngineAssetDefinitions/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/EngineAssetDefinitions/EngineAssetDefinitions.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/MeshLODToolset/Binaries/Win64/UnrealEditor-MeshLODToolset.dll",
+      "purpose": "plugin module MeshLODToolset"
+    },
+    {
+      "relative": "Plugins/Editor/MeshLODToolset/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/MeshLODToolset/MeshLODToolset.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/ModelingToolsEditorMode/Binaries/Win64/UnrealEditor-ModelingToolsEditorMode.dll",
+      "purpose": "plugin module ModelingToolsEditorMode"
+    },
+    {
+      "relative": "Plugins/Editor/ModelingToolsEditorMode/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ModelingToolsEditorMode/ModelingToolsEditorMode.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/PluginBrowser/Binaries/Win64/UnrealEditor-PluginBrowser.dll",
+      "purpose": "plugin module PluginBrowser"
+    },
+    {
+      "relative": "Plugins/Editor/PluginBrowser/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/PluginBrowser/PluginBrowser.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/ProxyLODPlugin/Binaries/Win64/UnrealEditor-ProxyLODMeshReduction.dll",
+      "purpose": "plugin module ProxyLODMeshReduction"
+    },
+    {
+      "relative": "Plugins/Editor/ProxyLODPlugin/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/ProxyLODPlugin/ProxyLODPlugin.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/Binaries/Win64/UnrealEditor-StylusInput.dll",
+      "purpose": "plugin module StylusInput"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/Binaries/Win64/UnrealEditor-StylusInputDebugWidget.dll",
+      "purpose": "plugin module StylusInputDebugWidget"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/Binaries/Win64/UnrealEditor-StylusInputRealTimeStylus.dll",
+      "purpose": "plugin module StylusInputRealTimeStylus"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/Binaries/Win64/UnrealEditor-StylusInputWintab.dll",
+      "purpose": "plugin module StylusInputWintab"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Editor/StylusInput/StylusInput.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/EnhancedInput/Binaries/Win64/UnrealEditor-EnhancedInput.dll",
+      "purpose": "plugin module EnhancedInput"
+    },
+    {
+      "relative": "Plugins/EnhancedInput/Binaries/Win64/UnrealEditor-InputBlueprintNodes.dll",
+      "purpose": "plugin module InputBlueprintNodes"
+    },
+    {
+      "relative": "Plugins/EnhancedInput/Binaries/Win64/UnrealEditor-InputEditor.dll",
+      "purpose": "plugin module InputEditor"
+    },
+    {
+      "relative": "Plugins/EnhancedInput/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/EnhancedInput/EnhancedInput.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManager/Binaries/Win64/UnrealEditor-VariantManager.dll",
+      "purpose": "plugin module VariantManager"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManager/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManager/VariantManager.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UnrealEditor-VariantManagerContent.dll",
+      "purpose": "plugin module VariantManagerContent"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UnrealEditor-VariantManagerContentEditor.dll",
+      "purpose": "plugin module VariantManagerContentEditor"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManagerContent/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Enterprise/VariantManagerContent/VariantManagerContent.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/Animation/Scribble/Binaries/Win64/UnrealEditor-Scribble.dll",
+      "purpose": "plugin module Scribble"
+    },
+    {
+      "relative": "Plugins/Experimental/Animation/Scribble/Binaries/Win64/UnrealEditor-ScribbleEditor.dll",
+      "purpose": "plugin module ScribbleEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/Animation/Scribble/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/Animation/Scribble/Scribble.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/ChaosCaching/Binaries/Win64/UnrealEditor-ChaosCaching.dll",
+      "purpose": "plugin module ChaosCaching"
+    },
+    {
+      "relative": "Plugins/Experimental/ChaosCaching/Binaries/Win64/UnrealEditor-ChaosCachingEditor.dll",
+      "purpose": "plugin module ChaosCachingEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/ChaosCaching/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/ChaosCaching/ChaosCaching.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/BaseCharacterFXEditor.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Binaries/Win64/UnrealEditor-BaseCharacterFXEditor.dll",
+      "purpose": "plugin module BaseCharacterFXEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/CharacterFXEditor/BaseCharacterFXEditor/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/DynamicWind/Binaries/Win64/UnrealEditor-DynamicWind.dll",
+      "purpose": "plugin module DynamicWind"
+    },
+    {
+      "relative": "Plugins/Experimental/DynamicWind/Binaries/Win64/UnrealEditor-DynamicWindEditor.dll",
+      "purpose": "plugin module DynamicWindEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/DynamicWind/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/DynamicWind/DynamicWind.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorage/Binaries/Win64/UnrealEditor-TedsCore.dll",
+      "purpose": "plugin module TedsCore"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorage/Binaries/Win64/UnrealEditor-TedsUI.dll",
+      "purpose": "plugin module TedsUI"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorage/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorage/EditorDataStorage.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsActorCompatibility.dll",
+      "purpose": "plugin module TedsActorCompatibility"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsAlerts.dll",
+      "purpose": "plugin module TedsAlerts"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsAssetData.dll",
+      "purpose": "plugin module TedsAssetData"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsContentBrowser.dll",
+      "purpose": "plugin module TedsContentBrowser"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsDebugger.dll",
+      "purpose": "plugin module TedsDebugger"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsEditorCompatibility.dll",
+      "purpose": "plugin module TedsEditorCompatibility"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsEverythingPicker.dll",
+      "purpose": "plugin module TedsEverythingPicker"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsOperations.dll",
+      "purpose": "plugin module TedsOperations"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsOutliner.dll",
+      "purpose": "plugin module TedsOutliner"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsPropertyEditor.dll",
+      "purpose": "plugin module TedsPropertyEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsQueryStack.dll",
+      "purpose": "plugin module TedsQueryStack"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsRevisionControl.dll",
+      "purpose": "plugin module TedsRevisionControl"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsSettings.dll",
+      "purpose": "plugin module TedsSettings"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsTableViewer.dll",
+      "purpose": "plugin module TedsTableViewer"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsTypeInfo.dll",
+      "purpose": "plugin module TedsTypeInfo"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-TedsTypedElementBridge.dll",
+      "purpose": "plugin module TedsTypedElementBridge"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor-UnifiedFavorites.dll",
+      "purpose": "plugin module UnifiedFavorites"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/EditorDataStorageFeatures/EditorDataStorageFeatures.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/FullBodyIK/Binaries/Win64/UnrealEditor-FullBodyIK.dll",
+      "purpose": "plugin module FullBodyIK"
+    },
+    {
+      "relative": "Plugins/Experimental/FullBodyIK/Binaries/Win64/UnrealEditor-PBIK.dll",
+      "purpose": "plugin module PBIK"
+    },
+    {
+      "relative": "Plugins/Experimental/FullBodyIK/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/FullBodyIK/FullBodyIK.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowCore.dll",
+      "purpose": "plugin module GeometryFlowCore"
+    },
+    {
+      "relative": "Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowMeshProcessing.dll",
+      "purpose": "plugin module GeometryFlowMeshProcessing"
+    },
+    {
+      "relative": "Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor-GeometryFlowMeshProcessingEditor.dll",
+      "purpose": "plugin module GeometryFlowMeshProcessingEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/GeometryFlow/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/GeometryFlow/GeometryFlow.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor-GeometryProcessingAdapters.dll",
+      "purpose": "plugin module GeometryProcessingAdapters"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor-MeshModelingToolsEditorOnlyExp.dll",
+      "purpose": "plugin module MeshModelingToolsEditorOnlyExp"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor-MeshModelingToolsExp.dll",
+      "purpose": "plugin module MeshModelingToolsExp"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor-ModelingEditorUI.dll",
+      "purpose": "plugin module ModelingEditorUI"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor-ModelingUI.dll",
+      "purpose": "plugin module ModelingUI"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/MeshModelingToolsetExp/MeshModelingToolsetExp.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/PlanarCutPlugin/Binaries/Win64/UnrealEditor-PlanarCut.dll",
+      "purpose": "plugin module PlanarCut"
+    },
+    {
+      "relative": "Plugins/Experimental/PlanarCutPlugin/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/PlanarCutPlugin/PlanarCut.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Binaries/Win64/UnrealEditor-ProceduralVegetation.dll",
+      "purpose": "plugin module ProceduralVegetation"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Binaries/Win64/UnrealEditor-ProceduralVegetationEditor.dll",
+      "purpose": "plugin module ProceduralVegetationEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Content/DefaultAssets/Visualization/Materials/M_LeafProxy.uasset",
+      "purpose": "engine/plugin asset /ProceduralVegetationEditor/DefaultAssets/Visualization/Materials/M_LeafProxy"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Content/DefaultAssets/Visualization/Materials/M_LeafProxy_Inst.uasset",
+      "purpose": "engine/plugin asset /ProceduralVegetationEditor/DefaultAssets/Visualization/Materials/M_LeafProxy_Inst"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Content/DefaultAssets/Visualization/SM_SM_LeafScaled.uasset",
+      "purpose": "engine/plugin asset /ProceduralVegetationEditor/DefaultAssets/Visualization/SM_SM_LeafScaled"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/Content/SampleAssets/StarterContent/Trunk_Profiles/Trunk_Profiles_01.uasset",
+      "purpose": "engine/plugin asset /ProceduralVegetationEditor/SampleAssets/StarterContent/Trunk_Profiles/Trunk_Profiles_01"
+    },
+    {
+      "relative": "Plugins/Experimental/ProceduralVegetationEditor/ProceduralVegetationEditor.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/PythonScriptPlugin/Binaries/Win64/UnrealEditor-PythonScriptPlugin.dll",
+      "purpose": "plugin module PythonScriptPlugin"
+    },
+    {
+      "relative": "Plugins/Experimental/PythonScriptPlugin/Binaries/Win64/UnrealEditor-PythonScriptPluginPreload.dll",
+      "purpose": "plugin module PythonScriptPluginPreload"
+    },
+    {
+      "relative": "Plugins/Experimental/PythonScriptPlugin/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/PythonScriptPlugin/PythonScriptPlugin.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Experimental/ToolPresets/Binaries/Win64/UnrealEditor-ToolPresetAsset.dll",
+      "purpose": "plugin module ToolPresetAsset"
+    },
+    {
+      "relative": "Plugins/Experimental/ToolPresets/Binaries/Win64/UnrealEditor-ToolPresetEditor.dll",
+      "purpose": "plugin module ToolPresetEditor"
+    },
+    {
+      "relative": "Plugins/Experimental/ToolPresets/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Experimental/ToolPresets/ToolPresets.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-Niagara.dll",
+      "purpose": "plugin module Niagara"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraAnimNotifies.dll",
+      "purpose": "plugin module NiagaraAnimNotifies"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraBlueprintNodes.dll",
+      "purpose": "plugin module NiagaraBlueprintNodes"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraCore.dll",
+      "purpose": "plugin module NiagaraCore"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraEditor.dll",
+      "purpose": "plugin module NiagaraEditor"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraEditorWidgets.dll",
+      "purpose": "plugin module NiagaraEditorWidgets"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraShader.dll",
+      "purpose": "plugin module NiagaraShader"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor-NiagaraVertexFactories.dll",
+      "purpose": "plugin module NiagaraVertexFactories"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/FX/Niagara/Niagara.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Binaries/Win64/UnrealEditor-InterchangeAssets.dll",
+      "purpose": "plugin module InterchangeAssets"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/Functions/MF_PhongToMetalRoughness.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/Functions/MF_PhongToMetalRoughness"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/Materials/FBXLegacyPhongSurfaceMaterial.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_PerceivedBrightness.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_PerceivedBrightness"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_RotateNormals_TS.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_RotateNormals_TS"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_RotateV2.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_RotateV2"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_ScaleNormal.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_ScaleNormal"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_SpecGlossToMetalRoughness"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/MaterialFunctions/MF_TransformUVs.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/MaterialFunctions/MF_TransformUVs"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Substrate/EGLTFAlphaMode.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Substrate/EGLTFAlphaMode"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Substrate/MF_GLTFPBR.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Substrate/MF_GLTFPBR"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Substrate/M_GLTF.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Substrate/M_GLTF"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Textures/T_Anisotropy_Direction_Linear.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Textures/T_Anisotropy_Direction_Linear"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Textures/T_Generic_N.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Textures/T_Generic_N"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Textures/T_White_Linear.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Textures/T_White_Linear"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/Content/gltf/Textures/T_White_srgb.uasset",
+      "purpose": "engine/plugin asset /InterchangeAssets/gltf/Textures/T_White_srgb"
+    },
+    {
+      "relative": "Plugins/Interchange/Assets/InterchangeAssets.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-GLTFCore.dll",
+      "purpose": "plugin module GLTFCore"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeAnalytics.dll",
+      "purpose": "plugin module InterchangeAnalytics"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeCommon.dll",
+      "purpose": "plugin module InterchangeCommon"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeCommonParser.dll",
+      "purpose": "plugin module InterchangeCommonParser"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeDispatcher.dll",
+      "purpose": "plugin module InterchangeDispatcher"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeExport.dll",
+      "purpose": "plugin module InterchangeExport"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeFactoryNodes.dll",
+      "purpose": "plugin module InterchangeFactoryNodes"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeFbxParser.dll",
+      "purpose": "plugin module InterchangeFbxParser"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeImport.dll",
+      "purpose": "plugin module InterchangeImport"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeMessages.dll",
+      "purpose": "plugin module InterchangeMessages"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangeNodes.dll",
+      "purpose": "plugin module InterchangeNodes"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor-InterchangePipelines.dll",
+      "purpose": "plugin module InterchangePipelines"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Interchange/Runtime/Interchange.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UnrealEditor-LevelSequenceEditor.dll",
+      "purpose": "plugin module LevelSequenceEditor"
+    },
+    {
+      "relative": "Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/MovieScene/SequencerScripting/Binaries/Win64/UnrealEditor-SequencerScripting.dll",
+      "purpose": "plugin module SequencerScripting"
+    },
+    {
+      "relative": "Plugins/MovieScene/SequencerScripting/Binaries/Win64/UnrealEditor-SequencerScriptingEditor.dll",
+      "purpose": "plugin module SequencerScriptingEditor"
+    },
+    {
+      "relative": "Plugins/MovieScene/SequencerScripting/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/MovieScene/SequencerScripting/SequencerScripting.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/PCG/Binaries/Win64/UnrealEditor-PCG.dll",
+      "purpose": "plugin module PCG"
+    },
+    {
+      "relative": "Plugins/PCG/Binaries/Win64/UnrealEditor-PCGCompute.dll",
+      "purpose": "plugin module PCGCompute"
+    },
+    {
+      "relative": "Plugins/PCG/Binaries/Win64/UnrealEditor-PCGEditor.dll",
+      "purpose": "plugin module PCGEditor"
+    },
+    {
+      "relative": "Plugins/PCG/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/PCG/PCG.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/AudioCapture/AudioCapture.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/AudioCapture/Binaries/Win64/UnrealEditor-AudioCapture.dll",
+      "purpose": "plugin module AudioCapture"
+    },
+    {
+      "relative": "Plugins/Runtime/AudioCapture/Binaries/Win64/UnrealEditor-AudioCaptureEditor.dll",
+      "purpose": "plugin module AudioCaptureEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/AudioCapture/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor-ComputeDataInterface.dll",
+      "purpose": "plugin module ComputeDataInterface"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor-ComputeFramework.dll",
+      "purpose": "plugin module ComputeFramework"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor-ComputeFrameworkEditor.dll",
+      "purpose": "plugin module ComputeFrameworkEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor-EditableComputeGraph.dll",
+      "purpose": "plugin module EditableComputeGraph"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor-EditableComputeGraphEditor.dll",
+      "purpose": "plugin module EditableComputeGraphEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/ComputeFramework/ComputeFramework.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCache.dll",
+      "purpose": "plugin module GeometryCache"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCacheEd.dll",
+      "purpose": "plugin module GeometryCacheEd"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCacheSequencer.dll",
+      "purpose": "plugin module GeometryCacheSequencer"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCacheStreamer.dll",
+      "purpose": "plugin module GeometryCacheStreamer"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor-GeometryCacheTracks.dll",
+      "purpose": "plugin module GeometryCacheTracks"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryCache/GeometryCache.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryProcessing/Binaries/Win64/UnrealEditor-DynamicMesh.dll",
+      "purpose": "plugin module DynamicMesh"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryProcessing/Binaries/Win64/UnrealEditor-GeometryAlgorithms.dll",
+      "purpose": "plugin module GeometryAlgorithms"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryProcessing/Binaries/Win64/UnrealEditor-MeshFileUtils.dll",
+      "purpose": "plugin module MeshFileUtils"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryProcessing/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryProcessing/GeometryProcessing.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryScripting/Binaries/Win64/UnrealEditor-GeometryScriptingCore.dll",
+      "purpose": "plugin module GeometryScriptingCore"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryScripting/Binaries/Win64/UnrealEditor-GeometryScriptingEditor.dll",
+      "purpose": "plugin module GeometryScriptingEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryScripting/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/GeometryScripting/GeometryScripting.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairCardGeneratorFramework.dll",
+      "purpose": "plugin module HairCardGeneratorFramework"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsCore.dll",
+      "purpose": "plugin module HairStrandsCore"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsDataflow.dll",
+      "purpose": "plugin module HairStrandsDataflow"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsDeformer.dll",
+      "purpose": "plugin module HairStrandsDeformer"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsEditor.dll",
+      "purpose": "plugin module HairStrandsEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsRuntime.dll",
+      "purpose": "plugin module HairStrandsRuntime"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor-HairStrandsSolver.dll",
+      "purpose": "plugin module HairStrandsSolver"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/HairStrands/HairStrands.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-MeshModelingTools.dll",
+      "purpose": "plugin module MeshModelingTools"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-MeshModelingToolsEditorOnly.dll",
+      "purpose": "plugin module MeshModelingToolsEditorOnly"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-ModelingComponents.dll",
+      "purpose": "plugin module ModelingComponents"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-ModelingComponentsEditorOnly.dll",
+      "purpose": "plugin module ModelingComponentsEditorOnly"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-ModelingOperators.dll",
+      "purpose": "plugin module ModelingOperators"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-ModelingOperatorsEditorOnly.dll",
+      "purpose": "plugin module ModelingOperatorsEditorOnly"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor-SkeletalMeshModifiers.dll",
+      "purpose": "plugin module SkeletalMeshModifiers"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/MeshModelingToolset/MeshModelingToolset.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UnrealEditor-ProceduralMeshComponent.dll",
+      "purpose": "plugin module ProceduralMeshComponent"
+    },
+    {
+      "relative": "Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UnrealEditor-ProceduralMeshComponentEditor.dll",
+      "purpose": "plugin module ProceduralMeshComponentEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/PropertyAccess/Binaries/Win64/UnrealEditor-PropertyAccessEditor.dll",
+      "purpose": "plugin module PropertyAccessEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/PropertyAccess/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/PropertyAccess/PropertyAccessEditor.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/RigVM/Binaries/Win64/UnrealEditor-RigVM.dll",
+      "purpose": "plugin module RigVM"
+    },
+    {
+      "relative": "Plugins/Runtime/RigVM/Binaries/Win64/UnrealEditor-RigVMDeveloper.dll",
+      "purpose": "plugin module RigVMDeveloper"
+    },
+    {
+      "relative": "Plugins/Runtime/RigVM/Binaries/Win64/UnrealEditor-RigVMEditor.dll",
+      "purpose": "plugin module RigVMEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/RigVM/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/RigVM/RigVM.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/WindowsDeviceProfileSelector/Binaries/Win64/UnrealEditor-WindowsDeviceProfileSelector.dll",
+      "purpose": "plugin module WindowsDeviceProfileSelector"
+    },
+    {
+      "relative": "Plugins/Runtime/WindowsDeviceProfileSelector/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor-XRBase.dll",
+      "purpose": "plugin module XRBase"
+    },
+    {
+      "relative": "Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor-XRBaseEditor.dll",
+      "purpose": "plugin module XRBaseEditor"
+    },
+    {
+      "relative": "Plugins/Runtime/XRBase/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/Runtime/XRBase/XRBase.uplugin",
+      "purpose": "plugin descriptor"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-CacheTrackRecorder.dll",
+      "purpose": "plugin module CacheTrackRecorder"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeMovieScene.dll",
+      "purpose": "plugin module TakeMovieScene"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeRecorder.dll",
+      "purpose": "plugin module TakeRecorder"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeRecorderEditor.dll",
+      "purpose": "plugin module TakeRecorderEditor"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeRecorderNamingTokens.dll",
+      "purpose": "plugin module TakeRecorderNamingTokens"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeRecorderSources.dll",
+      "purpose": "plugin module TakeRecorderSources"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeSequencer.dll",
+      "purpose": "plugin module TakeSequencer"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakeTrackRecorders.dll",
+      "purpose": "plugin module TakeTrackRecorders"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor-TakesCore.dll",
+      "purpose": "plugin module TakesCore"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Binaries/Win64/UnrealEditor.modules",
+      "purpose": "plugin module manifest"
+    },
+    {
+      "relative": "Plugins/VirtualProduction/Takes/Takes.uplugin",
+      "purpose": "plugin descriptor"
+    }
+  ]
+}

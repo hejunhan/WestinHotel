@@ -1,0 +1,28 @@
+{
+  "asset_count": 692,
+  "blueprint_count": 31,
+  "blueprint_errors": 0,
+  "blueprint_warnings": 0,
+  "map_count": 8,
+  "missing_dependencies": [],
+  "unregistered_disk_assets": [],
+  "third_party_plugins": [],
+  "additional_plugin_search_paths": [],
+  "absolute_file_path_blueprint_literals": [],
+  "changed_game_assets": [
+    "/Game/Elevator/Blueprints/Elevator1/BP_DoorFrame",
+    "/Game/Elevator/Blueprints/Elevator1/BP_Elevator_Box",
+    "/Game/Elevator/Blueprints/Elevator2/BP_DoorFrame2",
+    "/Game/Elevator/Blueprints/Elevator2/BP_Elevator_Box2",
+    "/Game/Elevator/Blueprints/FirstPersonBP/Blueprints/FirstPersonCharacter"
+  ],
+  "all_meshes_textures_maps_identical_to_v48": true,
+  "engine_required": "5.8.2 / CL 56702186",
+  "gpu_render_verified": false,
+  "source_import_metadata": "Original FBX/texture authoring paths are editor reimport metadata only; all built game assets are embedded in Content.",
+  "isolated_extract_all_assets_loaded": true,
+  "play_checks": 71,
+  "play_complete": true,
+  "preflight_negative_and_positive_tests_passed": true,
+  "physical_keyboard_verified": false
+}

@@ -1,0 +1,334 @@
+{
+  "checks": [
+    {
+      "name": "default_startup_main_map",
+      "pass": true
+    },
+    {
+      "name": "player_spawned_and_possessed",
+      "pass": true
+    },
+    {
+      "name": "inside_three_capture_every_frame",
+      "pass": true
+    },
+    {
+      "name": "interaction_ui_created",
+      "pass": true
+    },
+    {
+      "name": "character_movement_works",
+      "pass": true
+    },
+    {
+      "name": "panel1_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel1_False_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_0_False",
+      "pass": true
+    },
+    {
+      "name": "panel1_reaches_180",
+      "pass": true
+    },
+    {
+      "name": "panel1_real_mesh_moved",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_1_180",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_1_180",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_1_180",
+      "pass": true
+    },
+    {
+      "name": "panel1_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel1_True_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_0_True",
+      "pass": true
+    },
+    {
+      "name": "panel1_reaches_0",
+      "pass": true
+    },
+    {
+      "name": "panel1_restored",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_1_0",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_1_0",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_1_0",
+      "pass": true
+    },
+    {
+      "name": "panel2_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel2_False_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_1_False",
+      "pass": true
+    },
+    {
+      "name": "panel2_reaches_180",
+      "pass": true
+    },
+    {
+      "name": "panel2_real_mesh_moved",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_2_180",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_2_180",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_2_180",
+      "pass": true
+    },
+    {
+      "name": "panel2_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel2_True_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_1_True",
+      "pass": true
+    },
+    {
+      "name": "panel2_reaches_0",
+      "pass": true
+    },
+    {
+      "name": "panel2_restored",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_2_0",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_2_0",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_2_0",
+      "pass": true
+    },
+    {
+      "name": "panel3_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel3_False_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_2_False",
+      "pass": true
+    },
+    {
+      "name": "panel3_reaches_180",
+      "pass": true
+    },
+    {
+      "name": "panel3_real_mesh_moved",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_3_180",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_3_180",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_3_180",
+      "pass": true
+    },
+    {
+      "name": "panel3_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel3_True_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_2_True",
+      "pass": true
+    },
+    {
+      "name": "panel3_reaches_0",
+      "pass": true
+    },
+    {
+      "name": "panel3_restored",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_3_0",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_3_0",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_3_0",
+      "pass": true
+    },
+    {
+      "name": "panel4_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel4_False_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_3_False",
+      "pass": true
+    },
+    {
+      "name": "panel4_reaches_180",
+      "pass": true
+    },
+    {
+      "name": "panel4_real_mesh_moved",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_4_180",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_4_180",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_4_180",
+      "pass": true
+    },
+    {
+      "name": "panel4_in_range",
+      "pass": true
+    },
+    {
+      "name": "panel4_True_started",
+      "pass": true
+    },
+    {
+      "name": "shared_cooldown_blocks_repeat_3_True",
+      "pass": true
+    },
+    {
+      "name": "panel4_reaches_0",
+      "pass": true
+    },
+    {
+      "name": "panel4_restored",
+      "pass": true
+    },
+    {
+      "name": "Bar_angle_readback_4_0",
+      "pass": true
+    },
+    {
+      "name": "Cafeteria_angle_readback_4_0",
+      "pass": true
+    },
+    {
+      "name": "Hotel_angle_readback_4_0",
+      "pass": true
+    },
+    {
+      "name": "outside_three_capture_paused",
+      "pass": true
+    },
+    {
+      "name": "reentry_three_capture_resume",
+      "pass": true
+    }
+  ],
+  "complete": true,
+  "mode": "Editor PIE / NullRHI; no GPU image verification",
+  "stage": 7,
+  "pawn_class": "/Game/DoorInteractionKit/Demo/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.BP_ThirdPersonCharacter_C",
+  "spawn": [
+    1630.0,
+    8519.999951305314,
+    3952.2124977920034
+  ],
+  "capture_diagnostic": {
+    "pawn": [
+      27475.0,
+      195.0,
+      6548.643557548523
+    ],
+    "game_time": 5.053927097469568,
+    "game_time_at_teleport": 3.0250994004309177,
+    "paused": false,
+    "cameras": [
+      {
+        "room": "Bar",
+        "capturing": true,
+        "capture_every_frame": true,
+        "tick": true,
+        "center": "<Struct 'Vector' (0x000001FCB3F82890) {x: 27700.000000, y: 450.000000, z: 6700.000000}>",
+        "extent": "<Struct 'Vector' (0x000001FCB3F828A8) {x: 670.000000, y: 570.000000, z: 250.000000}>"
+      },
+      {
+        "room": "Cafeteria",
+        "capturing": true,
+        "capture_every_frame": true,
+        "tick": true,
+        "center": "<Struct 'Vector' (0x000001FCB3F82290) {x: 27700.000000, y: 450.000000, z: 6700.000000}>",
+        "extent": "<Struct 'Vector' (0x000001FCB3F822A8) {x: 670.000000, y: 570.000000, z: 250.000000}>"
+      },
+      {
+        "room": "Hotel",
+        "capturing": true,
+        "capture_every_frame": true,
+        "tick": true,
+        "center": "<Struct 'Vector' (0x000001FCB3F81C90) {x: 27700.000000, y: 450.000000, z: 6700.000000}>",
+        "extent": "<Struct 'Vector' (0x000001FCB3F81CA8) {x: 670.000000, y: 570.000000, z: 250.000000}>"
+      }
+    ]
+  },
+  "accepted_count": 8
+}
