@@ -1,0 +1,247 @@
+{
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "mode": "small1 single interaction",
+  "validation_mode": "NullRHI Play/Simulate; interaction functions plus actual Tick",
+  "passed": true,
+  "compile_results": [
+    {
+      "graph": "UserConstructionScript",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "EvaluateInteraction",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "InteractNearest",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "TryActivateTrigger",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "TryStartRotation",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "AdvanceTargetRotation",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "StopCombinationRotation",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "EnsurePromptUI",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "RefreshPrompt",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "RemovePromptUI",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "EventGraph",
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "bound_actors_remap_to_pie",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "idle_tick_disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "far_input_ignored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_second_trigger_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_trigger_index_ignored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_second_trigger_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "single_interaction_hint",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_interaction_starts_rotation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_activation_not_required",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_second_trigger_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rotation_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quarter_time_ease",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "repeat_does_not_restart",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rotation_finishes_90_degrees",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completed_and_tick_disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pitch_roll_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pivot_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completed_repeat_ignored",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_correct",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "no_second_trigger_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completed_prompt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_actor_reference_absent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "works_without_any_second_actor_binding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_tick_finishes_90_degrees",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_tick_stops",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_tick_has_intermediate_frames",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timer_hides_after_leaving",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "endplay_removes_widget",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "actual_tick_sample_count": 263,
+  "final_tick_sample": {
+    "elapsed": 2.0,
+    "clockwise_degrees": 90.00000000000001
+  },
+  "gpu_render_verified": false,
+  "physical_keyboard_verified": false
+}
