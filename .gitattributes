@@ -1,13 +1,12 @@
 # Preserve the original delivery files byte-for-byte for MANIFEST_SHA256.csv.
 * -text
-
 # Normalize newly added repository documentation and Git configuration.
 *.md text eol=lf
 .gitignore text eol=lf
 .gitattributes text eol=lf
-
 # Unreal assets are binary and must be transferred through Git LFS.
 *.uasset filter=lfs diff=lfs merge=lfs -text
 *.umap filter=lfs diff=lfs merge=lfs -text
 *.ubulk filter=lfs diff=lfs merge=lfs -text
 *.uexp filter=lfs diff=lfs merge=lfs -text
+Content/Brutalist_Facility/Textures/T_Concrete_16_nrm.png filter=lfs diff=lfs merge=lfs -text
