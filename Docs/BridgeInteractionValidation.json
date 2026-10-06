@@ -1,0 +1,626 @@
+{
+  "engine_version": "5.8.3-58210709+++UE5+Release-5.8",
+  "validation_mode": "NullRHI Play/Simulate; Blueprint interaction calls plus actual game Tick",
+  "passed": true,
+  "compile_results": [
+    {
+      "graph": "UserConstructionScript",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "InteractLock",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "AdvanceBridgeRotation",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "StopBridgeRotation",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "ConfigureBridgeActors",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "ResolveBridgeActors",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "EnsureBridgePromptUI",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "RefreshBridgePrompt",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "RemoveBridgePrompt",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "FindNearestBridgeLock",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "ReleaseBridgeBusy",
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "graph": "EventGraph",
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "lock_reference_resolves_to_game_world",
+      "passed": true,
+      "detail": "/Game/Level/UEDPIE_0_hejunhan.hejunhan:PersistentLevel.BP-BridgeControl_C_0"
+    },
+    {
+      "name": "bridge_reference_resolves_to_game_world",
+      "passed": true,
+      "detail": "/Game/Level/UEDPIE_0_hejunhan.hejunhan:PersistentLevel.StaticMeshActor_2"
+    },
+    {
+      "name": "lock_binds_to_own_bp",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "user_lock_mesh_component_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "controller_has_input_component",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "idle_tick_is_disabled",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bridge_is_movable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "far_player_cannot_trigger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "far_interaction_does_not_rotate_bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "E 旋转桥"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "near_player_can_trigger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "桥正在旋转"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "rotation_enables_tick",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "quarter_time_ease_in_is_clockwise",
+      "passed": true,
+      "detail": 11.250000000000455
+    },
+    {
+      "name": "repeated_interaction_does_not_reset_progress",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "half_time_is_45_degrees_clockwise",
+      "passed": true,
+      "detail": 45.00000000000037
+    },
+    {
+      "name": "completion_is_90_degrees_clockwise",
+      "passed": true,
+      "detail": 90.00000000000037
+    },
+    {
+      "name": "completion_clears_busy_state",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completion_disables_tick",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "E 旋转桥"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "pitch_and_roll_are_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "bridge_pivot_location_is_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "next_interaction_adds_another_90_degrees",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "oversize_delta_finishes_without_overshoot",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing_lock_reference_is_safe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "missing_bridge_reference_is_safe",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_lock_uses_own_actor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicates_share_same_bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicate_lock_uses_own_actor",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "duplicates_share_same_bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "E 旋转桥"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "one_broadcast_key_triggers_only_nearest_lock",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shared_bridge_busy_flag_acquired",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "other_lock_cannot_rotate_busy_bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "桥正在旋转"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "completion_releases_shared_bridge_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_lock_can_trigger_after_first_finishes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "second_lock_adds_90_degrees_to_shared_bridge",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "original_bridge_tag_preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "E 旋转桥"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "closer_overlapping_lock_can_trigger",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "idle_lock_cannot_release_another_lock_busy_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "destroy_rotation_owner_releases_shared_bridge_flag",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "destroyed_lock_prompt_removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_tick_test_started",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_game_tick_completes_at_90_degrees",
+      "passed": true,
+      "detail": 90.00000000000037
+    },
+    {
+      "name": "actual_game_tick_stops_when_complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "actual_game_tick_has_intermediate_frames",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_created",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "existing_widget_class_reused",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "widget_is_in_viewport",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_visibility_matches_distance_and_targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "prompt_matches_rotation_state",
+      "passed": true,
+      "detail": "E 旋转桥"
+    },
+    {
+      "name": "prompt_has_no_flip_selection_line",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "timer_hides_prompt_when_player_leaves",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "cleanup_removes_only_bridge_widget",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "actual_tick_sample_count": 254,
+  "final_tick_sample": {
+    "elapsed": 2.0,
+    "clockwise_degrees": 90.00000000000037
+  },
+  "gpu_render_verified": false,
+  "physical_keyboard_verified": false
+}
